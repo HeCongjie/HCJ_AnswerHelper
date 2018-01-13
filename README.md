@@ -1,17 +1,13 @@
 # 《冲顶大会》答题辅助工具
-## 冲顶大会
 
->最近几天，“直播答题”已席卷互联网。《冲顶大会》题目的范围涉及很广，天文地理历史科学娱乐影视音乐诗歌礼仪等，每次活动共12道题，也难怪王思聪会挑衅地说“觉得自己很聪明可以来试试”，反正，规则就是10秒中之内未答题和答错题都将被淘汰，且无法角逐当期的奖金。
 
-<img width="300px" src="https://github.com/steveyg/AnswerHelper/blob/master/res/img/chongding.jpg?raw=true"/>
-
-虽然通过邀请好友可以获得复活次数，但是毕竟复活很宝贵，而且每轮只能复活一次，如果复活之后答错会更加可惜。那么怎么样才能够短时间内提升我们的准确率呢？
 
 ## 原理说明
 
 1.手机进入答题app
 
-2.Android可以通过adb截屏并拉取图片
+2.截图
+Android可以通过adb截屏并拉取图片
 ```shell
 adb shell screencap -p /sdcard/autojump.png
 adb pull /sdcard/autojump.png .
@@ -63,16 +59,14 @@ python main.py
 ## 运行截图
 <img width="550px" src="https://github.com/steveyg/AnswerHelper/blob/master/res/img/run.jpeg?raw=true"/>
 
-## 更新日志
-2018.01.11 增加了api访问方式，感谢[HuuBaa](https://github.com/HuuBaa)
+## 版权信本
+本脚本的编写者为[steveyg](https://github.com/stevegy),我主要做了如下工作
+1、调试其在MacOS下运行，解决了字符编码错误的问题
+2、对根据词频和搜索条输的结果得出最终答案的算法进行了优化，解决了词频数并列
 
-## 常见问题
-
-详见[Q&A](https://github.com/steveyg/AnswerHelper/blob/master/Q%26A.md)
 
 ## 进行中
-1.尝试获取其他app接口
+1.冲顶大会每道题放出之前5s会先加载到手机本地，通过抓包可以更准确的提前获得题目和选项
 
-2.简化切换不同方式的操作
 
 
