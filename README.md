@@ -1,4 +1,4 @@
-本脚本的编写者为[steveyg](https://github.com/stevegy),我主要做了如下工作
+本脚本的编写者为[steveyg](https://github.com/steveyg/),我主要做了如下工作
 1、调试其在MacOS下运行，解决了字符编码错误的问题
 2、对根据词频和搜索条输的结果得出最终答案的算法进行了优化，解决了词频数并列最值的Bug
 
