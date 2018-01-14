@@ -1,3 +1,7 @@
+本脚本的编写者为[steveyg](https://github.com/stevegy),我主要做了如下工作
+1、调试其在MacOS下运行，解决了字符编码错误的问题
+2、对根据词频和搜索条输的结果得出最终答案的算法进行了优化，解决了词频数并列最值的Bug
+
 # 《冲顶大会》答题辅助工具
 
 
@@ -58,12 +62,6 @@ python main.py
 
 ## 运行截图
 <img width="550px" src="https://github.com/steveyg/AnswerHelper/blob/master/res/img/run.jpeg?raw=true"/>
-
-## 版权信本
-本脚本的编写者为[steveyg](https://github.com/stevegy),我主要做了如下工作
-1、调试其在MacOS下运行，解决了字符编码错误的问题
-2、对根据词频和搜索条输的结果得出最终答案的算法进行了优化，解决了词频数并列
-
 
 ## 进行中
 1.冲顶大会每道题放出之前5s会先加载到手机本地，通过抓包可以更准确的提前获得题目和选项
